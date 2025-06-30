@@ -28,9 +28,9 @@ export default function Navbar() {
   const navLinks = [
     { name: "Home", href: "/" },
     { name: "Gallery", href: "/gallery" },
-    { name: "TNR Trust", href: "/tnr-trust" },
+    { name: "TNR Trust", href: "https://obaps.in/tnr" },
     { name: "Media", href: "/media" },
-    { name: "Blog", href: "/" },
+    { name: "Blog", href: "https://sanketreddy.com/blog/?page_id=14" },
     { name: "Contact", href: "/contact" },
   ]
 
@@ -38,8 +38,14 @@ export default function Navbar() {
     <>
       <header className={`navbar ${scrolled ? "navbar-scrolled" : ""}`}>
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo">
-            Sanket Reddy
+        <Link to="/" className="flex items-center space-x-2">
+            
+            <img 
+              src={require('../assests/images/logo.png')} // or require('../path/to/logo.png') if using imports
+              alt="Sanket Reddy Logo"
+              className="h-12 w-auto" // Adjust size as needed
+            />
+            <span className="text-white font-bold text-xl hidden sm:block">Sanket Reddy</span>
           </Link>
 
           {/* Desktop Navigation */}

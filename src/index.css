@@ -672,7 +672,7 @@ a {
 }
 
 .text-4xl {
-  font-size: 2.25rem;
+  font-size: 5.25rem;
 }
 
 .text-5xl {
@@ -1214,13 +1214,13 @@ a {
   right: 0;
   z-index: 50;
   transition: all var(--transition-normal);
-  padding: 1.25rem 0;
-  /* background-color: transparent; */
-  background-color: gray;
+  padding: 1.0rem 0;
+  background-color: transparent;
+  
 }
 
 .navbar-scrolled {
-  background-color: white;
+  background-color: gray;
   backdrop-filter: blur(4px);
   padding: 0.75rem 0;
 }
@@ -1246,7 +1246,7 @@ a {
 }
 
 .navbar-link {
-  color: var(--color-black);
+  color: var(--color-white);
   text-decoration: none;
   transition: color var(--transition-fast);
   margin: 0 1.25rem;
@@ -1262,7 +1262,7 @@ a {
 }
 
 .navbar-social-link {
-  color: var(--color-black);
+  color: var(--color-white);
   transition: color var(--transition-fast);
   margin-left: 1.25rem;
   display: flex;
@@ -1985,4 +1985,21 @@ a {
   .desktop-only {
     display: none;
   }
+}
+
+.full-screen {
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Prevent scrolling */
+}
+
+.visible {
+  opacity: 1; /* Make the section visible */
+  transition: opacity 0.5s ease-in-out; /* Smooth transition */
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  height: 100%;
+  /* overflow: hidden; */
 }

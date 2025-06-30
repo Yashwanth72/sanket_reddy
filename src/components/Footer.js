@@ -38,7 +38,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/tnr-trust" className="footer-link">
+                <Link to="https://obaps.in/tnr" className="footer-link">
                   TNR Trust
                 </Link>
               </li>
@@ -48,7 +48,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/blog" className="footer-link">
+                <Link to="https://sanketreddy.com/blog/?page_id=14" className="footer-link">
                   Blog
                 </Link>
               </li>

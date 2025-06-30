@@ -7,7 +7,7 @@ import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 
 // Gallery categories
-const categories = ["All", "Wildlife", "Birds", "Landscapes", "Underwater", "Expeditions"]
+const categories = ["All", "Wildlife", "Birds", "Landscapes", "Underwater", "Expeditions","TNR Trust"]
 
 // Sample gallery items
 const galleryItems = [
@@ -16,84 +16,84 @@ const galleryItems = [
     title: "Bengal Tiger",
     category: "Wildlife",
     location: "Ranthambore, India",
-    image: "/https://i.pinimg.com/736x/15/36/a8/1536a8553797c871ff940d43376d3389.jpg?height=800&width=1200",
+    image: require('../assests/images/hero3.jpg'),
   },
   {
     id: 2,
     title: "African Elephant",
     category: "Wildlife",
     location: "Serengeti, Tanzania",
-    image: "/placeholder.svg?height=800&width=1200",
+    image: require('../assests/images/empty.jpg'),
   },
   {
     id: 3,
     title: "Himalayan Landscape",
     category: "Landscapes",
     location: "Nepal",
-    image: "/placeholder.svg?height=800&width=1200",
+    image: require('../assests/images/empty.jpg'),
   },
   {
     id: 4,
     title: "Kingfisher in Action",
     category: "Birds",
     location: "Kerala, India",
-    image: "/placeholder.svg?height=800&width=1200",
+    image: require('../assests/images/empty.jpg'),
   },
   {
     id: 5,
     title: "Coral Reef",
     category: "Underwater",
     location: "Great Barrier Reef, Australia",
-    image: "/placeholder.svg?height=800&width=1200",
+    image: require('../assests/images/empty.jpg'),
   },
   {
     id: 6,
     title: "Snow Leopard",
     category: "Wildlife",
     location: "Himalayas",
-    image: "/placeholder.svg?height=800&width=1200",
+    image: require('../assests/images/empty.jpg'),
   },
   {
     id: 7,
     title: "Amazon Expedition",
     category: "Expeditions",
     location: "Amazon Rainforest, Brazil",
-    image: "/placeholder.svg?height=800&width=1200",
+    image: require('../assests/images/empty.jpg'),
   },
   {
     id: 8,
     title: "Flamingo Flock",
     category: "Birds",
     location: "Lake Nakuru, Kenya",
-    image: "/placeholder.svg?height=800&width=1200",
+    image: require('../assests/images/empty.jpg'),
   },
   {
     id: 9,
     title: "Desert Sunset",
     category: "Landscapes",
     location: "Sahara Desert",
-    image: "/placeholder.svg?height=800&width=1200",
+    image: require('../assests/images/empty.jpg'),
   },
   {
     id: 10,
     title: "Whale Shark",
     category: "Underwater",
     location: "Maldives",
-    image: "/placeholder.svg?height=800&width=1200",
+    image: require('../assests/images/empty.jpg'),
   },
   {
     id: 11,
     title: "Arctic Expedition",
     category: "Expeditions",
     location: "Svalbard, Norway",
-    image: "/placeholder.svg?height=800&width=1200",
+    image: require('../assests/images/empty.jpg'),
   },
   {
     id: 12,
     title: "Mountain Gorilla",
     category: "Wildlife",
     location: "Rwanda",
-    image: "/placeholder.svg?height=800&width=1200",
+    image: require('../assests/images/empty.jpg'),
   },
 ]
 
